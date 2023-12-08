@@ -1,0 +1,78 @@
+/*--Relative--*/
+
+.father {
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+.relative-element {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
+
+/*--Absolute--*/
+
+.relative-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+}
+
+.absolute-element {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
+
+.absolute-element-2 {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
+
+
+/*--Fixed--*/
+
+.fixed-element {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+.content {
+    margin-top: 60px; /* Để tránh che phủ nội dung bởi phần tử cố định */
+    padding: 20px;
+}
+
+/*--Sticky--*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sticky-element {
+    position: sticky;
+    top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+.content {
+    padding: 20px;
+}
